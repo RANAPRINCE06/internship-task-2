@@ -50,7 +50,7 @@ const Controls = ({ length, setLength, options, setOptions }) => {
           const isOn = options[key];
           return (
             <div
-              key={key}
+              key={`toggle-${key}`}
               className={`toggle-item ${isOn ? 'active' : ''}`}
               style={{ '--item-color': itemColor }}
               onClick={() => handleToggle(key)}

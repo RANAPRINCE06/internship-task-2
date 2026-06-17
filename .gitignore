@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+*.log
+npm-debug.log*
+
+# Agent / IDE tooling
+.mcp.json
+.windsurfrules
+AGENT.md
+CLAUDE.md
+
+# Node
+node_modules/
+
+# Build output (tracked separately on gh-pages branch)
+dist/
+dist-ssr/
+*.local

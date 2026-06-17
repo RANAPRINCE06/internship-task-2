@@ -34,7 +34,7 @@ const History = ({ history, onClear }) => (
       ) : (
         history.map((item, idx) => (
           <div
-            key={item.id}
+            key={`hist-${item.id}-${idx}`}
             className="history-item"
             role="listitem"
             style={{ animationDelay: `${idx * 0.04}s` }}
